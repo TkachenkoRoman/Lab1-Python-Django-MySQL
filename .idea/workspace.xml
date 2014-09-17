@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Lab1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1410639634301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1410803901676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,8 +29,47 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1445">
+            <state line="59" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="1445">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="35" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="68" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1173">
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+                <marker date="1410700238959" expanded="true" signature="1135:1161" placeholder="SELECT * FRO..guitar_types..." />
+                <marker date="1410700238959" expanded="true" signature="1244:1266" placeholder="SELECT * FRO..Produser..." />
+                <marker date="1410700238959" expanded="true" signature="1349:1370" placeholder="SELECT * FRO..Pickups..." />
+                <marker date="1410700238959" expanded="true" signature="1453:1473" placeholder="SELECT * FRO..Bridge..." />
+                <marker date="1410700238959" expanded="true" signature="1556:1574" placeholder="SELECT * FRO..Body..." />
+                <marker date="1410700238959" expanded="true" signature="1657:1677" placeholder="SELECT * FRO..Guitar..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,27 +83,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file leaf-file-name="load_tables_from_csv.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="50" selection-start="786" selection-end="786" vertical-scroll-proportion="0.057142857" vertical-offset="357" max-vertical-offset="1207">
+            <state line="245" column="40" selection-start="9705" selection-end="9705" vertical-scroll-proportion="1.0728571" vertical-offset="3380" max-vertical-offset="4437">
               <folding>
-                <element signature="e#22#31#0" expanded="true" />
-                <marker date="1410640119931" expanded="true" signature="940:973" placeholder="SELECT COUNT..Guitar_types..." />
-                <marker date="1410640119931" expanded="true" signature="1143:1167" placeholder="DELETE FROM ..." />
-                <marker date="1410640119931" expanded="true" signature="1432:1468" placeholder="SELECT * FRO..Guitar_types..." />
-                <marker date="1410640119931" expanded="true" signature="1853:1906" placeholder="INSERT INTO ..." />
-                <marker date="1410640119931" expanded="true" signature="2189:2215" placeholder="SELECT * FRO..guitar_types..." />
+                <marker date="1410868248649" expanded="true" signature="533:566" placeholder="SELECT COUNT..Guitar_types..." />
+                <marker date="1410868248649" expanded="true" signature="736:760" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="1070:1106" placeholder="SELECT * FRO..Guitar_types..." />
+                <marker date="1410868248649" expanded="true" signature="1407:1460" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="2052:2081" placeholder="SELECT COUNT..Produser..." />
+                <marker date="1410868248649" expanded="true" signature="2251:2271" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="2577:2609" placeholder="SELECT * FRO..Produser..." />
+                <marker date="1410868248649" expanded="true" signature="2907:3025" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="3659:3687" placeholder="SELECT COUNT..Pickups..." />
+                <marker date="1410868248649" expanded="true" signature="3857:3876" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="4181:4212" placeholder="SELECT * FRO..Pickups..." />
+                <marker date="1410868248649" expanded="true" signature="4478:4510" placeholder="SELECT * FRO..Produser..." />
+                <marker date="1410868248649" expanded="true" signature="4687:4769" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="4687:4770" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="5464:5491" placeholder="SELECT COUNT..Bridge..." />
+                <marker date="1410868248649" expanded="true" signature="5661:5679" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="5983:6013" placeholder="SELECT * FRO..Bridge..." />
+                <marker date="1410868248649" expanded="true" signature="6278:6337" placeholder="SELECT * FRO..Produser..." />
+                <marker date="1410868248649" expanded="true" signature="6505:6593" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="6505:6599" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="6505:6600" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="7329:7354" placeholder="SELECT COUNT..Body..." />
+                <marker date="1410868248649" expanded="true" signature="7524:7540" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="7842:7870" placeholder="SELECT * FRO..Body..." />
+                <marker date="1410868248649" expanded="true" signature="8164:8243" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="8164:8249" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="8164:8250" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="8858:8885" placeholder="SELECT COUNT..Guitar..." />
+                <marker date="1410868248649" expanded="true" signature="9055:9073" placeholder="DELETE FROM ..." />
+                <marker date="1410868248649" expanded="true" signature="9237:9273" placeholder="SELECT * FRO..Guitar_types..." />
+                <marker date="1410868248649" expanded="true" signature="9370:9398" placeholder="SELECT * FRO..Body..." />
+                <marker date="1410868248649" expanded="true" signature="9473:9503" placeholder="SELECT * FRO..Bridge..." />
+                <marker date="1410868248649" expanded="true" signature="9580:9611" placeholder="SELECT * FRO..Pickups..." />
+                <marker date="1410868248649" expanded="true" signature="9689:9721" placeholder="SELECT * FRO..Produser..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10079" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:9999" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:9998" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10139" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10163" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10179" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10080" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:9914" placeholder="INSERT INTO ..." />
+                <marker date="1410868248649" expanded="true" signature="9867:10180" placeholder="INSERT INTO ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cursors.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0" vertical-offset="3274" max-vertical-offset="9146">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,10 +139,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="9" column="11" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +156,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Lab1/settings.py" />
+        <option value="$PROJECT_DIR$/templates/loading_tables_from_csv.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/load_tables_from_csv.py" />
+        <option value="$PROJECT_DIR$/GuitarDataBaseApp/urls.py" />
+        <option value="$PROJECT_DIR$/GuitarDataBaseApp/views.py" />
+        <option value="$PROJECT_DIR$/Lab1/urls.py" />
       </list>
     </option>
   </component>
@@ -182,13 +252,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Django server.Lab1">
     <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,7 +365,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lab1" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -320,27 +411,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab1" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -422,6 +493,23 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34e92904-d400-42c7-8e95-394229d72f1f" name="Default" comment="" />
@@ -430,21 +518,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1826411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33009708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21851453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,16 +577,229 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="68" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1173">
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+            <marker date="1410700238959" expanded="true" signature="1135:1161" placeholder="SELECT * FRO..guitar_types..." />
+            <marker date="1410700238959" expanded="true" signature="1244:1266" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410700238959" expanded="true" signature="1349:1370" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410700238959" expanded="true" signature="1453:1473" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410700238959" expanded="true" signature="1556:1574" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410700238959" expanded="true" signature="1657:1677" placeholder="SELECT * FRO..Guitar..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="36" selection-start="9776" selection-end="9776" vertical-scroll-proportion="0.0" vertical-offset="3736" max-vertical-offset="4471">
+          <folding>
+            <marker date="1410868248649" expanded="true" signature="533:566" placeholder="SELECT COUNT..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="736:760" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="1070:1106" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="1407:1460" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="2052:2081" placeholder="SELECT COUNT..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2251:2271" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="2577:2609" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2907:3025" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="3659:3687" placeholder="SELECT COUNT..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="3857:3876" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="4181:4212" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="4478:4510" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4769" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4770" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="5464:5491" placeholder="SELECT COUNT..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="5661:5679" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="5983:6013" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="6278:6337" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6593" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6599" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6600" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="7329:7354" placeholder="SELECT COUNT..Body..." />
+            <marker date="1410868248649" expanded="true" signature="7524:7540" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="7842:7870" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8243" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8249" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8250" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8858:8885" placeholder="SELECT COUNT..Guitar..." />
+            <marker date="1410868248649" expanded="true" signature="9055:9073" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="9237:9273" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="9370:9398" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="9473:9503" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="9580:9611" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="9689:9721" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10079" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9999" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9998" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10139" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10163" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10179" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10080" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9914" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10180" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="9163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="19" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1173">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#22#31#0" expanded="true" />
+            <marker date="1410700238959" expanded="true" signature="1135:1161" placeholder="SELECT * FRO..guitar_types..." />
+            <marker date="1410700238959" expanded="true" signature="1244:1266" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410700238959" expanded="true" signature="1349:1370" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410700238959" expanded="true" signature="1453:1473" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410700238959" expanded="true" signature="1556:1574" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410700238959" expanded="true" signature="1657:1677" placeholder="SELECT * FRO..Guitar..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="36" selection-start="9776" selection-end="9776" vertical-scroll-proportion="0.0" vertical-offset="3736" max-vertical-offset="4471">
+          <folding>
+            <marker date="1410868248649" expanded="true" signature="533:566" placeholder="SELECT COUNT..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="736:760" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="1070:1106" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="1407:1460" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="2052:2081" placeholder="SELECT COUNT..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2251:2271" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="2577:2609" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2907:3025" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="3659:3687" placeholder="SELECT COUNT..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="3857:3876" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="4181:4212" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="4478:4510" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4769" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4770" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="5464:5491" placeholder="SELECT COUNT..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="5661:5679" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="5983:6013" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="6278:6337" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6593" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6599" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6600" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="7329:7354" placeholder="SELECT COUNT..Body..." />
+            <marker date="1410868248649" expanded="true" signature="7524:7540" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="7842:7870" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8243" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8249" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8250" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8858:8885" placeholder="SELECT COUNT..Guitar..." />
+            <marker date="1410868248649" expanded="true" signature="9055:9073" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="9237:9273" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="9370:9398" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="9473:9503" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="9580:9611" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="9689:9721" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10079" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9999" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9998" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10139" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10163" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10179" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10080" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9914" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10180" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="9163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="111" selection-start="1837" selection-end="1936" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1207">
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+            <marker date="1410700238959" expanded="true" signature="1135:1161" placeholder="SELECT * FRO..guitar_types..." />
+            <marker date="1410700238959" expanded="true" signature="1244:1266" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410700238959" expanded="true" signature="1349:1370" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410700238959" expanded="true" signature="1453:1473" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410700238959" expanded="true" signature="1556:1574" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410700238959" expanded="true" signature="1657:1677" placeholder="SELECT * FRO..Guitar..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="9163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="1.5785714" vertical-offset="1989" max-vertical-offset="9146">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,30 +810,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+        <state line="9" column="11" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="0" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0" vertical-offset="3274" max-vertical-offset="9146">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="35" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="786" selection-end="786" vertical-scroll-proportion="0.057142857" vertical-offset="357" max-vertical-offset="1207">
+        <state line="14" column="68" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1173">
           <folding>
             <element signature="e#22#31#0" expanded="true" />
-            <marker date="1410640119931" expanded="true" signature="940:973" placeholder="SELECT COUNT..Guitar_types..." />
-            <marker date="1410640119931" expanded="true" signature="1143:1167" placeholder="DELETE FROM ..." />
-            <marker date="1410640119931" expanded="true" signature="1432:1468" placeholder="SELECT * FRO..Guitar_types..." />
-            <marker date="1410640119931" expanded="true" signature="1853:1906" placeholder="INSERT INTO ..." />
-            <marker date="1410640119931" expanded="true" signature="2189:2215" placeholder="SELECT * FRO..guitar_types..." />
+            <marker date="1410700238959" expanded="true" signature="1135:1161" placeholder="SELECT * FRO..guitar_types..." />
+            <marker date="1410700238959" expanded="true" signature="1244:1266" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410700238959" expanded="true" signature="1349:1370" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410700238959" expanded="true" signature="1453:1473" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410700238959" expanded="true" signature="1556:1574" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410700238959" expanded="true" signature="1657:1677" placeholder="SELECT * FRO..Guitar..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="40" selection-start="9705" selection-end="9705" vertical-scroll-proportion="1.0728571" vertical-offset="3380" max-vertical-offset="4437">
+          <folding>
+            <marker date="1410868248649" expanded="true" signature="533:566" placeholder="SELECT COUNT..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="736:760" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="1070:1106" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="1407:1460" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="2052:2081" placeholder="SELECT COUNT..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2251:2271" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="2577:2609" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="2907:3025" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="3659:3687" placeholder="SELECT COUNT..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="3857:3876" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="4181:4212" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="4478:4510" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4769" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="4687:4770" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="5464:5491" placeholder="SELECT COUNT..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="5661:5679" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="5983:6013" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="6278:6337" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6593" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6599" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="6505:6600" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="7329:7354" placeholder="SELECT COUNT..Body..." />
+            <marker date="1410868248649" expanded="true" signature="7524:7540" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="7842:7870" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8243" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8249" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8164:8250" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="8858:8885" placeholder="SELECT COUNT..Guitar..." />
+            <marker date="1410868248649" expanded="true" signature="9055:9073" placeholder="DELETE FROM ..." />
+            <marker date="1410868248649" expanded="true" signature="9237:9273" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1410868248649" expanded="true" signature="9370:9398" placeholder="SELECT * FRO..Body..." />
+            <marker date="1410868248649" expanded="true" signature="9473:9503" placeholder="SELECT * FRO..Bridge..." />
+            <marker date="1410868248649" expanded="true" signature="9580:9611" placeholder="SELECT * FRO..Pickups..." />
+            <marker date="1410868248649" expanded="true" signature="9689:9721" placeholder="SELECT * FRO..Produser..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10079" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9999" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9998" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10139" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10163" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10179" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10080" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:9914" placeholder="INSERT INTO ..." />
+            <marker date="1410868248649" expanded="true" signature="9867:10180" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
