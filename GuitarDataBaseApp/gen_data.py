@@ -8,6 +8,7 @@ def generate_data(table_name, columns):
         if row:
             curr = {}
             for i in range(row.__len__()):
-                curr[columns[i]] = row[i]
+                if i < columns.__len__():
+                    curr[columns[i]] = row[i]
             data.append(dict(curr))
     return data

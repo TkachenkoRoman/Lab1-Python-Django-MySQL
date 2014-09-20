@@ -31,6 +31,10 @@
         line-height: 25px;
     }
 
+    .hero-unit {
+        display: table;
+        margin: 0 auto;
+    }
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
@@ -367,20 +371,20 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span2">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Master data</li>
-              <li><a href="#Guitars">Guitars</a></li>
-              <li><a href="#Produsers">Produsers</a></li>
-              <li><a href="#Bodies">Bodies</a></li>
-              <li><a href="#Bridges">Bridges</a></li>
+              <li><a href='{% url "guitars"%}'>Guitars</a></li>
+              <li><a href='{% url 'produsers'%}'>Produsers</a></li>
+              <li><a href='{% url "bodies"%}'>Bodies</a></li>
+              <li><a href='{% url "bridges"%}'>Bridges</a></li>
               <li><a href='{% url "guitar_types"%}'>Guitar types</a></li>
               <li><a href='{% url 'pickups'%}'>Pickups</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        <div class="span10">
            <div class="hero-unit">
                <link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />
                 {% load render_table from django_tables2 %}
