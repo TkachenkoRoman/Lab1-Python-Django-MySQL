@@ -6,7 +6,7 @@ admin.autodiscover()
 from django.conf.urls import include, url
 from django.contrib import admin
 
-urlpatterns = patterns("",
+urlpatterns = (
     url(r'^', include('GuitarDataBaseApp.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
