@@ -27,11 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit_form.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="edit_form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/templates/edit_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="26" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-8.615385" vertical-offset="422" max-vertical-offset="1598">
-              <folding />
+            <state line="58" column="23" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.65485364" vertical-offset="561" max-vertical-offset="1598">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,22 +103,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_tables.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="58" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1156">
-              <folding />
+            <state line="50" column="25" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="969">
+              <folding>
+                <marker date="1411319905953" expanded="true" signature="0:292" placeholder="import ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
+      <file leaf-file-name="db_tables.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.7175227" vertical-offset="307" max-vertical-offset="969">
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
+            <state line="60" column="58" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1156">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,22 +150,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gen_data.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/gen_data.py">
+      <file leaf-file-name="db_methods.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="103" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="18" column="20" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding>
-                <marker date="1411315918832" expanded="true" signature="100:114" placeholder="SELECT * FRO..missing_value..." />
-                <marker date="1411315918832" expanded="true" signature="466:496" placeholder="SELECT * FRO..Guitar..." />
-                <marker date="1411315918832" expanded="true" signature="658:675" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:676" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:684" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:685" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:702" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:703" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:712" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:713" placeholder="UPDATE Guita..." />
-                <marker date="1411315918832" expanded="true" signature="658:762" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="95:341" placeholder="select g.id,..guitar..." />
+                <marker date="1411323790458" expanded="true" signature="95:417" placeholder="select g.id,..guitar..." />
+                <marker date="1411323790458" expanded="true" signature="95:481" placeholder="select g.id,..guitar..." />
+                <marker date="1411323790458" expanded="true" signature="95:706" placeholder="select g.id,..Guitar..." />
+                <marker date="1411323790458" expanded="true" signature="832:846" placeholder="SELECT * FRO..missing_value..." />
+                <marker date="1411323790458" expanded="true" signature="1198:1226" placeholder="DELETE FROM ..." />
+                <marker date="1411323790458" expanded="true" signature="1290:1320" placeholder="SELECT * FRO..Guitar..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1499" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1500" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1508" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1509" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1526" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1527" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1536" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1537" placeholder="UPDATE Guita..." />
+                <marker date="1411323790458" expanded="true" signature="1482:1586" placeholder="UPDATE Guita..." />
               </folding>
             </state>
           </provider>
@@ -190,15 +197,16 @@
         <option value="$PROJECT_DIR$/GuitarDataBaseApp/generate_data.py" />
         <option value="$PROJECT_DIR$/GuitarDataBaseApp/__init__.py" />
         <option value="$PROJECT_DIR$/Lab1/urls.py" />
-        <option value="$PROJECT_DIR$/static/templates/base.html" />
         <option value="$PROJECT_DIR$/static/django_tables2/themes/paleblue/css/screen.css" />
         <option value="$PROJECT_DIR$/static/templates/edit.html" />
         <option value="$PROJECT_DIR$/static/templates/delete.html" />
         <option value="$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py" />
-        <option value="$PROJECT_DIR$/GuitarDataBaseApp/urls.py" />
-        <option value="$PROJECT_DIR$/static/templates/edit_form.html" />
         <option value="$PROJECT_DIR$/GuitarDataBaseApp/gen_data.py" />
         <option value="$PROJECT_DIR$/GuitarDataBaseApp/views.py" />
+        <option value="$PROJECT_DIR$/GuitarDataBaseApp/urls.py" />
+        <option value="$PROJECT_DIR$/static/templates/base.html" />
+        <option value="$PROJECT_DIR$/GuitarDataBaseApp/db_methods.py" />
+        <option value="$PROJECT_DIR$/static/templates/edit_form.html" />
       </list>
     </option>
   </component>
@@ -691,7 +699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1411319905953" expanded="true" signature="0:292" placeholder="import ..." />
           </folding>
         </state>
       </provider>
@@ -741,7 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="29" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1411319905953" expanded="true" signature="0:292" placeholder="import ..." />
           </folding>
         </state>
       </provider>
@@ -932,20 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="58" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="769">
@@ -1000,51 +994,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/static/templates/delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="369" selection-end="369" vertical-scroll-proportion="227.53847" vertical-offset="6120" max-vertical-offset="7854">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/gen_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="103" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <marker date="1411315918832" expanded="true" signature="100:114" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1411315918832" expanded="true" signature="466:496" placeholder="SELECT * FRO..Guitar..." />
-            <marker date="1411315918832" expanded="true" signature="658:675" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:676" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:684" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:685" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:702" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:703" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:712" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:713" placeholder="UPDATE Guita..." />
-            <marker date="1411315918832" expanded="true" signature="658:762" placeholder="UPDATE Guita..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/edit_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-8.615385" vertical-offset="422" max-vertical-offset="1598">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="656" selection-end="656" vertical-scroll-proportion="0.30222222" vertical-offset="0" max-vertical-offset="675">
+        <state line="15" column="1" selection-start="709" selection-end="709" vertical-scroll-proportion="0.32740742" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="386" column="53" selection-start="11827" selection-end="11827" vertical-scroll-proportion="0.9229584" vertical-offset="5963" max-vertical-offset="7293">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.7175227" vertical-offset="307" max-vertical-offset="969">
+        <state line="50" column="25" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="969">
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1411319905953" expanded="true" signature="0:292" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="58" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding>
+            <marker date="1411323790458" expanded="true" signature="95:341" placeholder="select g.id,..guitar..." />
+            <marker date="1411323790458" expanded="true" signature="95:417" placeholder="select g.id,..guitar..." />
+            <marker date="1411323790458" expanded="true" signature="95:481" placeholder="select g.id,..guitar..." />
+            <marker date="1411323790458" expanded="true" signature="95:706" placeholder="select g.id,..Guitar..." />
+            <marker date="1411323790458" expanded="true" signature="832:846" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1411323790458" expanded="true" signature="1198:1226" placeholder="DELETE FROM ..." />
+            <marker date="1411323790458" expanded="true" signature="1290:1320" placeholder="SELECT * FRO..Guitar..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1499" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1500" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1508" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1509" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1526" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1527" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1536" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1537" placeholder="UPDATE Guita..." />
+            <marker date="1411323790458" expanded="true" signature="1482:1586" placeholder="UPDATE Guita..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/edit_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="23" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.65485364" vertical-offset="561" max-vertical-offset="1598">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

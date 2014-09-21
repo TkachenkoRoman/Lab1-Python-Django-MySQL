@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
-from gen_data import *
+from db_methods import *
 from db_tables import *
 import django_tables2 as tables
 from django.views.decorators.http import require_http_methods
@@ -48,5 +48,5 @@ def edit_confirm_view(request):
     return redirect('/Guitar/')
 
 def delete_view(request, delete_id):
-    response = "You're clicked edit button with id %s."
-    return HttpResponse(response % delete_id)
+    del_guitar(delete_id)
+    return redirect('/Guitar/')

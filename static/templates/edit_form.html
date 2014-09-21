@@ -25,7 +25,7 @@
       <script src="{{ STATIC_URL }}js/html5shiv.js"></script>
     <![endif]-->
   </head>
-<body>
+<body style="background-color: #dcdcdc">
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -38,31 +38,31 @@
                         <div class="form-group">
                             <label for="name" class="col-sm-1 control-label">Name</label>
                             <div class="col-sm-11">
-                              <input id="name" type="text" class="form-control" value="{{ guitar.1 }}">
+                              <input id="name" name="name" type="text" class="form-control" value="{{ guitar.1 }}">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="strings" class="col-sm-1 control-label">Strings</label>
                             <div class="col-sm-11">
-                              <input id="strings" type="text" class="form-control" value="{{ guitar.2 }}">
+                              <input id="strings" name="strings" type="text" class="form-control" value="{{ guitar.2 }}">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="price" class="col-sm-1 control-label">Price</label>
                             <div class="col-sm-11">
-                              <input id="price" type="text" class="form-control" value="{{ guitar.3 }}">
+                              <input id="price" name="price" type="text" class="form-control" value="{{ guitar.3 }}">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="neck_material" class="col-sm-1 control-label">Neck</label>
                             <div class="col-sm-11">
-                              <input id="neck_material" type="text" class="form-control" value="{{ guitar.4 }}">
+                              <input id="neck_material" name="neck_material" type="text" class="form-control" value="{{ guitar.4 }}">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="fretboard_material" class="col-sm-1 control-label">Fretboard</label>
                             <div class="col-sm-11">
-                              <input id="fretboard_material" type="text" class="form-control" value="{{ guitar.5 }}">
+                              <input id="fretboard_material" name="fretboard_material" type="text" class="form-control" value="{{ guitar.5 }}">
                             </div>
                         </div>
                         <input type="hidden" name="id" value="{{ guitar.0 }}" />
