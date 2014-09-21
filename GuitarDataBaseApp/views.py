@@ -1,8 +1,10 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
-from gen_data import generate_data
+from gen_data import *
 from db_tables import *
 import django_tables2 as tables
+from django.views.decorators.http import require_http_methods
+from django.core.context_processors import csrf
 
 def guitar_types_view(request):
     table = Guitar_types(generate_data("Guitar_types", ("id", "name")))
@@ -31,3 +33,20 @@ def guitar_view(request):
 def index(request):
     table = Pickups(generate_data("Pickups", ("id", "produser_id", "type", "set_type")))
     return render(request, 'templates/base.html',{'mytable': table})
+
+def edit_view(request, edit_id):
+    #response = "You're clicked edit button with id %s."
+    return render(request, 'templates/edit_form.html', {"guitar": get_guitar(edit_id)})
+
+@require_http_methods(["POST"])
+def edit_confirm_view(request):
+    c = {}
+    c.update(csrf(request))
+    if request.method == 'POST':
+        update_guitar(request.POST["id"], request.POST.get('name', False), request.POST.get('strings', False), request.POST.get('price', False), request.POST.get('neck_material', False), request.POST.get('fretboard_material', False))
+    table = Guitar(generate_data("Guitar", ("id", "name", "string_amount", "price", "neck_material", "Fretboard_material", "Pick_guard", "Type_id", "Body_id", "Bridge_id", "Pickups_id", "Guitar_produser_id")))
+    return redirect('/Guitar/')
+
+def delete_view(request, delete_id):
+    response = "You're clicked edit button with id %s."
+    return HttpResponse(response % delete_id)

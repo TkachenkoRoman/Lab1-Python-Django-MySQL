@@ -51,11 +51,13 @@ class Guitar(tables.Table):
     price = tables.Column()
     neck_material = tables.Column(verbose_name="neck")
     Fretboard_material = tables.Column(verbose_name="fretboard")
-    Pick_guard = tables.Column(verbose_name="pickguard")
+    Pick_guard = tables.BooleanColumn(verbose_name="pickguard")
     Type_id = tables.Column(verbose_name="type")
     Body_id = tables.Column(verbose_name="body")
     Bridge_id = tables.Column(verbose_name="bridge")
     Pickups_id = tables.Column(verbose_name="pickups")
     Guitar_produser_id = tables.Column(verbose_name="produser")
+    edit_entries = tables.TemplateColumn(verbose_name=" ", template_name='templates/edit.html')
+    delete_entries = tables.TemplateColumn(verbose_name=" ", template_name='templates/delete.html')
     class Meta:
         attrs = {"class": "paleblue"}

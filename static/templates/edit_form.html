@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .panel {
+            margin-top: 30px;
+        }
+        .form-control{
+             margin-bottom: 15px;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="{{ STATIC_URL }}js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Edit guitar</h3>
+            </div>
+            <div class="panel-body">
+                <form action="/Edit/confirm/" method="post">
+                {%csrf_token%}
+                    <div>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-1 control-label">Name</label>
+                            <div class="col-sm-11">
+                              <input id="name" type="text" class="form-control" value="{{ guitar.1 }}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="strings" class="col-sm-1 control-label">Strings</label>
+                            <div class="col-sm-11">
+                              <input id="strings" type="text" class="form-control" value="{{ guitar.2 }}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="price" class="col-sm-1 control-label">Price</label>
+                            <div class="col-sm-11">
+                              <input id="price" type="text" class="form-control" value="{{ guitar.3 }}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="neck_material" class="col-sm-1 control-label">Neck</label>
+                            <div class="col-sm-11">
+                              <input id="neck_material" type="text" class="form-control" value="{{ guitar.4 }}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="fretboard_material" class="col-sm-1 control-label">Fretboard</label>
+                            <div class="col-sm-11">
+                              <input id="fretboard_material" type="text" class="form-control" value="{{ guitar.5 }}">
+                            </div>
+                        </div>
+                        <input type="hidden" name="id" value="{{ guitar.0 }}" />
+                        <input type="submit" value="Save" class="btn btn-default"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-alert.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-dropdown.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tab.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tooltip.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-popover.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-button.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+</body>
+</html>
