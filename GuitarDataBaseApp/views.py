@@ -36,7 +36,7 @@ def index(request):
 
 def edit_view(request, edit_id):
     #response = "You're clicked edit button with id %s."
-    return render(request, 'templates/edit_form.html', {"guitar": get_guitar(edit_id)})
+    return render(request, 'templates/edit_form.html', {"guitar": get_guitar(edit_id), "guitar_type": get_guitar_type(edit_id), "guitar_types":get_guitar_types()})
 
 @require_http_methods(["POST"])
 def edit_confirm_view(request):
