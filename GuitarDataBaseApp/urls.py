@@ -11,6 +11,10 @@ urlpatterns = (
     url(r'^Body/', views.body_view, name='bodies'),
     url(r'^Guitar/', views.guitar_view, name='guitars'),
     url(r'^(?P<edit_id>\d+)/Edit/', views.edit_view, name='edit'),
+    url(r'^Add/', views.add_view, name='add'),
     url(r'^(?P<delete_id>\d+)/Delete/', views.delete_view, name='delete'),
     url(r'^Edit/confirm/', views.edit_confirm_view, name='edit_confirm'),
+    url(r'^Add_confirm/', views.add_confirm_view, name='add_confirm'),
+    url(r'^load_csv/', views.load_csv_view, name='load_csv'),
+    url(r'^Guitar_filtered/', views.filter_view, name='filter')
 )

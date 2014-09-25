@@ -34,51 +34,48 @@
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">{{ title }}</h3>
+                <h3 class="panel-title">Add Guitar</h3>
             </div>
             <div class="panel-body">
-                <form action={{ action_url }} method="post">
+                <form action="/Add_confirm/" method="post">
                 {%csrf_token%}
                     <div>
                         <div class="form-group">
                             <label for="name" class="col-sm-1 control-label">Name</label>
                             <div class="col-sm-11">
-                              <input id="name" name="name" type="text" class="form-control" value="{{ guitar.1 }}">
+                              <input id="name" name="name" type="text" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="strings" class="col-sm-1 control-label">Strings</label>
                             <div class="col-sm-11">
-                              <input id="strings" name="strings" type="text" class="form-control" value="{{ guitar.2 }}">
+                              <input id="strings" name="strings" type="text" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="price" class="col-sm-1 control-label">Price</label>
                             <div class="col-sm-11">
-                              <input id="price" name="price" type="text" class="form-control" value="{{ guitar.3 }}">
+                              <input id="price" name="price" type="text" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="neck_material" class="col-sm-1 control-label">Neck</label>
                             <div class="col-sm-11">
-                              <input id="neck_material" name="neck_material" type="text" class="form-control" value="{{ guitar.4 }}">
+                              <input id="neck_material" name="neck_material" type="text" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="fretboard_material" class="col-sm-1 control-label">Fretboard</label>
                             <div class="col-sm-11">
-                              <input id="fretboard_material" name="fretboard_material" type="text" class="form-control" value="{{ guitar.5 }}">
+                              <input id="fretboard_material" name="fretboard_material" type="text" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="fretboard_material" class="col-sm-1 control-label">Type</label>
                             <div class="col-sm-11">
                                 <select id="type_id" name="type_id" class="selectpicker show-tick form-control">
-                                    <option value="{{guitar_type.0}}">{{ guitar_type.1}}</option>
                                     {% for g_t in guitar_types %}
-                                    {% if g_t.0 != guitar_type.0%}
                                     <option value="{{g_t.0 }}">{{ g_t.1}}</option>
-                                    {% endif %}
                                     {% endfor %}
                                 </select>
                             </div>
@@ -87,11 +84,8 @@
                             <label for="fretboard_material" class="col-sm-1 control-label">Body</label>
                             <div class="col-sm-11">
                                 <select id="body_id" name="body_id" class="selectpicker show-tick form-control">
-                                    <option value="{{body.0}}">{{body.1}}, {{body.2}}, {{body.3}}, {{body.4}}</option>
                                     {% for b in bodies %}
-                                    {% if b.0 != body.0%}
                                     <option value="{{b.0}}">{{b.1}}, {{b.2}}, {{b.3}}, {{b.4}}</option>
-                                    {% endif %}
                                     {% endfor %}
                                 </select>
                             </div>
@@ -100,11 +94,8 @@
                             <label for="fretboard_material" class="col-sm-1 control-label">Bridge</label>
                             <div class="col-sm-11">
                                 <select id="bridge_id" name="bridge_id" class="selectpicker show-tick form-control">
-                                    <option value="{{bridge.0}}">{{bridge.1}}, {{bridge.2}}, {{bridge.3}}, {{bridge.4}}</option>
                                     {% for b in bridges %}
-                                    {% if b.0 != bridge.0%}
                                     <option value="{{b.0}}">{{b.1}}, {{b.2}}, {{b.3}}, {{b.4}}</option>
-                                    {% endif %}
                                     {% endfor %}
                                 </select>
                             </div>
@@ -113,11 +104,8 @@
                             <label for="fretboard_material" class="col-sm-1 control-label">Pickups</label>
                             <div class="col-sm-11">
                                 <select id="pickups_id" name="pickups_id" class="selectpicker show-tick form-control">
-                                    <option value="{{pickup.0}}">{{pickup.1}}, {{pickup.2}}, {{pickup.3}}</option>
                                     {% for p in pickups %}
-                                    {% if p.0 != pickup.0%}
                                     <option value="{{p.0}}">{{p.1}}, {{p.2}}, {{p.3}}</option>
-                                    {% endif %}
                                     {% endfor %}
                                 </select>
                             </div>
@@ -126,11 +114,8 @@
                             <label for="fretboard_material" class="col-sm-1 control-label">Produser</label>
                             <div class="col-sm-11">
                                 <select id="produser_id" name="produser_id" class="selectpicker show-tick form-control">
-                                    <option value="{{produser.0}}">{{produser.1}}, {{produser.2}}</option>
                                     {% for p in produsers %}
-                                    {% if p.0 != produser.0%}
                                     <option value="{{p.0}}">{{p.1}}, {{p.2}}</option>
-                                    {% endif %}
                                     {% endfor %}
                                 </select>
                             </div>
@@ -142,7 +127,6 @@
                                     <input type="checkbox" id="pickguard" name="pickguard" style="margin-left: 20px">
                                 {% endif %}</label>
                         </div>
-                        <input type="hidden" name="id" value="{{ guitar.0 }}" />
                         <input type="submit" value="Save" class="btn btn-default"/>
                     </div>
                 </form>

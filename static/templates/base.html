@@ -10,6 +10,8 @@
 
     <!-- Le styles -->
     <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bootstrap_select/dist/css/bootstrap-select.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
 
     /* GLOBAL STYLES
@@ -372,6 +374,10 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span2">
+         {% for f in filter %}
+            <label for="{{ f.0 }}" class="control-label">{{ f.0 }} {{ f.1 }}
+            <input type="checkbox" checked="checked" id="{{ f.0 }}" name="{{ f.0 }}" style="margin-bottom: 10px">
+         {% endfor %}
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Master data</li>
@@ -383,11 +389,35 @@
               <li><a href='{% url 'pickups'%}'>Pickups</a></li>
               <li class="divider"></li>
               <li class="nav-header">Actions</li>
-              <li><a href='{% url "guitars"%}'>Add Guitar</a></li>
-              <li><a href='{% url "guitars"%}'>Search</a></li>
+              <li><a href='{% url "add"%}'>Add Guitar</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Guitar</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Pickups</a></li>
+                    <li><a href="#">Body</a></li>
+                    <li><a href="#">Bridge</a></li>
+                    <li><a href="#">Produser</a></li>
+                  </ul>
+              </li>
+              <li><a href='{% url "load_csv"%}'>Load from csv</a></li>
             </ul>
           </div><!--/.well -->
-        </div><!--/span-->
+          <form action="/Guitar_filtered/" method="post">
+                {%csrf_token%}
+              <label for="price" class="col-lg-2 control-label">Price</label>
+              <select id="price" name="price" class="show-tick form-control" multiple>
+                <option value="0,500">0-500</option>
+                <option value="500,1000">500-1000</option>
+                <option value="1000,1500">1000-1500</option>
+                <option value="1500,2000">1500-2000</option>
+                <option value="2000,3000">2000-3000</option>
+                <option value="3000,%">over 3000</option>
+              </select>
+              <input type="submit" value="Filter" class="btn btn-small btn-primary"/>
+          </form>
+        </div>
         <div class="span10">
            <div class="hero-unit">
                <link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />
@@ -396,9 +426,9 @@
            </div>
         </div>
       </div><!--/row-->
-        <footer>
-        <p>&copy; Roman Tkachenko 2014</p>
-     </footer>
+        <footer style="margin-left: 600px">
+            <p>&copy; Roman Tkachenko 2014</p>
+         </footer>
     </div><!--/.fluid-container-->
 
 
