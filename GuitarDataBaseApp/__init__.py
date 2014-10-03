@@ -10,7 +10,7 @@ bridge_file_path = "bridge.csv"
 body_file_path = "body.csv"
 guitar_file_path = "guitar.csv"
 
-guitar_db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="kt315gt409", db="guitar_schema")#, port=4040)
+guitar_db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="kt315gt409", db="guitar_schema", port=4040)
 #  let execute the queries
 db_cursor = guitar_db.cursor()
 cursor = db_cursor

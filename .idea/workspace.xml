@@ -30,7 +30,7 @@
       <file leaf-file-name="edit_form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/templates/edit_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="135" selection-start="8158" selection-end="8398" vertical-scroll-proportion="0.0" vertical-offset="2189" max-vertical-offset="2907">
+            <state line="147" column="16" selection-start="8851" selection-end="8851" vertical-scroll-proportion="-86.65385" vertical-offset="246" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
@@ -45,19 +45,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="899" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="425">
+            <state line="30" column="148" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
+              <folding>
+                <marker date="1411762599188" expanded="true" signature="5849:6156" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/templates/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
+      <file leaf-file-name="delete.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/templates/delete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="5420" selection-end="5420" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1972">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -66,20 +77,8 @@
       <file leaf-file-name="db_tables.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="13" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1156">
+            <state line="50" column="13" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1156">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.239096" vertical-offset="5100" max-vertical-offset="7803">
-              <folding>
-                <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,10 +86,33 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="17" selection-start="488" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="612">
+            <state line="12" column="34" selection-start="313" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding>
-                <marker date="1411554570574" expanded="true" signature="968:994" placeholder="SELECT * FRO..guitar_types..." />
+                <marker date="1411725185020" expanded="true" signature="966:992" placeholder="SELECT * FRO..guitar_types..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="321" column="45" selection-start="8934" selection-end="8934" vertical-scroll-proportion="0.55088854" vertical-offset="5116" max-vertical-offset="8585">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,25 +120,25 @@
       <file leaf-file-name="db_methods.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="80" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2329">
+            <state line="35" column="23" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
               <folding>
-                <marker date="1411655780613" expanded="true" signature="84:680" placeholder="select g.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="1340:1388" placeholder="SELECT * FRO..missing_value..." />
-                <marker date="1411655780613" expanded="true" signature="1778:1806" placeholder="DELETE FROM ..." />
-                <marker date="1411655780613" expanded="true" signature="1870:1900" placeholder="SELECT * FRO..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="2007:2097" placeholder="SELECT t.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="2203:2229" placeholder="SELECT * FRO..Guitar_types..." />
-                <marker date="1411655780613" expanded="true" signature="2318:2429" placeholder="SELECT b.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="2529:2547" placeholder="SELECT * FRO..Body..." />
-                <marker date="1411655780613" expanded="true" signature="2638:2862" placeholder="SELECT b.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="2963:3070" placeholder="SELECT b.id,..Bridge..." />
-                <marker date="1411655780613" expanded="true" signature="3161:3381" placeholder="SELECT p.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="3477:3611" placeholder="SELECT p.id,..Pickups..." />
-                <marker date="1411655780613" expanded="true" signature="3704:3811" placeholder="SELECT p.id,..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="3914:3979" placeholder="SELECT p.id,..Produser..." />
-                <marker date="1411655780613" expanded="true" signature="4073:4112" placeholder="SELECT Pick_..Guitar..." />
-                <marker date="1411655780613" expanded="true" signature="4480:4707" placeholder="UPDATE Guita..." />
-                <marker date="1411655780613" expanded="true" signature="5199:5512" placeholder="INSERT INTO ..." />
+                <marker date="1411762937753" expanded="true" signature="84:680" placeholder="select g.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="1846:1894" placeholder="SELECT * FRO..missing_value..." />
+                <marker date="1411762937753" expanded="true" signature="2284:2312" placeholder="DELETE FROM ..." />
+                <marker date="1411762937753" expanded="true" signature="2376:2406" placeholder="SELECT * FRO..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="2513:2603" placeholder="SELECT t.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="2709:2735" placeholder="SELECT * FRO..Guitar_types..." />
+                <marker date="1411762937753" expanded="true" signature="2824:2935" placeholder="SELECT b.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="3035:3053" placeholder="SELECT * FRO..Body..." />
+                <marker date="1411762937753" expanded="true" signature="3144:3368" placeholder="SELECT b.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="3469:3576" placeholder="SELECT b.id,..Bridge..." />
+                <marker date="1411762937753" expanded="true" signature="3667:3887" placeholder="SELECT p.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="3983:4117" placeholder="SELECT p.id,..Pickups..." />
+                <marker date="1411762937753" expanded="true" signature="4210:4317" placeholder="SELECT p.id,..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="4420:4485" placeholder="SELECT p.id,..Produser..." />
+                <marker date="1411762937753" expanded="true" signature="4579:4618" placeholder="SELECT Pick_..Guitar..." />
+                <marker date="1411762937753" expanded="true" signature="4986:5213" placeholder="UPDATE Guita..." />
+                <marker date="1411762937753" expanded="true" signature="5705:6018" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -189,7 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,6 +357,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,18 +679,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18317358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39708266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27615964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27615964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -697,7 +719,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="27" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -857,26 +879,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="186" column="0" selection-start="5477" selection-end="5477" vertical-scroll-proportion="0.33333334" vertical-offset="2852" max-vertical-offset="5746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="769" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/admin.py">
@@ -887,11 +892,6 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="4" selection-start="269" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="12" selection-start="9851" selection-end="10366" vertical-scroll-proportion="0.0" vertical-offset="3774" max-vertical-offset="4437" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/servers/basehttp.py">
@@ -941,6 +941,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/add_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="25" selection-start="7436" selection-end="7469" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2635">
@@ -948,66 +955,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
+    <entry file="file://$PROJECT_DIR$/static/templates/delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="488" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="561">
-          <folding>
-            <marker date="1411554570574" expanded="true" signature="968:994" placeholder="SELECT * FRO..guitar_types..." />
-          </folding>
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
+    <entry file="file://$PROJECT_DIR$/static/templates/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="899" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/edit_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="135" selection-start="8158" selection-end="8398" vertical-scroll-proportion="0.0" vertical-offset="2189" max-vertical-offset="2907">
+        <state line="147" column="16" selection-start="8851" selection-end="8851" vertical-scroll-proportion="-86.65385" vertical-offset="246" max-vertical-offset="2907">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_tables_from_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="35" selection-end="35" vertical-scroll-proportion="0.05362776" vertical-offset="0" max-vertical-offset="4471">
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="991" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="313" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding>
+            <marker date="1411725185020" expanded="true" signature="966:992" placeholder="SELECT * FRO..guitar_types..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="5420" selection-end="5420" vertical-scroll-proportion="0.0" vertical-offset="1327" max-vertical-offset="1870">
-          <folding />
+        <state line="30" column="148" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
+          <folding>
+            <marker date="1411762599188" expanded="true" signature="5849:6156" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuitarDataBaseApp/db_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="80" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2329">
+        <state line="35" column="23" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
           <folding>
-            <marker date="1411655780613" expanded="true" signature="84:680" placeholder="select g.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="1340:1388" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1411655780613" expanded="true" signature="1778:1806" placeholder="DELETE FROM ..." />
-            <marker date="1411655780613" expanded="true" signature="1870:1900" placeholder="SELECT * FRO..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="2007:2097" placeholder="SELECT t.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="2203:2229" placeholder="SELECT * FRO..Guitar_types..." />
-            <marker date="1411655780613" expanded="true" signature="2318:2429" placeholder="SELECT b.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="2529:2547" placeholder="SELECT * FRO..Body..." />
-            <marker date="1411655780613" expanded="true" signature="2638:2862" placeholder="SELECT b.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="2963:3070" placeholder="SELECT b.id,..Bridge..." />
-            <marker date="1411655780613" expanded="true" signature="3161:3381" placeholder="SELECT p.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="3477:3611" placeholder="SELECT p.id,..Pickups..." />
-            <marker date="1411655780613" expanded="true" signature="3704:3811" placeholder="SELECT p.id,..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="3914:3979" placeholder="SELECT p.id,..Produser..." />
-            <marker date="1411655780613" expanded="true" signature="4073:4112" placeholder="SELECT Pick_..Guitar..." />
-            <marker date="1411655780613" expanded="true" signature="4480:4707" placeholder="UPDATE Guita..." />
-            <marker date="1411655780613" expanded="true" signature="5199:5512" placeholder="INSERT INTO ..." />
+            <marker date="1411762937753" expanded="true" signature="84:680" placeholder="select g.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="1846:1894" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1411762937753" expanded="true" signature="2284:2312" placeholder="DELETE FROM ..." />
+            <marker date="1411762937753" expanded="true" signature="2376:2406" placeholder="SELECT * FRO..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="2513:2603" placeholder="SELECT t.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="2709:2735" placeholder="SELECT * FRO..Guitar_types..." />
+            <marker date="1411762937753" expanded="true" signature="2824:2935" placeholder="SELECT b.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="3035:3053" placeholder="SELECT * FRO..Body..." />
+            <marker date="1411762937753" expanded="true" signature="3144:3368" placeholder="SELECT b.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="3469:3576" placeholder="SELECT b.id,..Bridge..." />
+            <marker date="1411762937753" expanded="true" signature="3667:3887" placeholder="SELECT p.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="3983:4117" placeholder="SELECT p.id,..Pickups..." />
+            <marker date="1411762937753" expanded="true" signature="4210:4317" placeholder="SELECT p.id,..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="4420:4485" placeholder="SELECT p.id,..Produser..." />
+            <marker date="1411762937753" expanded="true" signature="4579:4618" placeholder="SELECT Pick_..Guitar..." />
+            <marker date="1411762937753" expanded="true" signature="4986:5213" placeholder="UPDATE Guita..." />
+            <marker date="1411762937753" expanded="true" signature="5705:6018" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.239096" vertical-offset="5100" max-vertical-offset="7803">
+        <state line="321" column="45" selection-start="8934" selection-end="8934" vertical-scroll-proportion="0.55088854" vertical-offset="5116" max-vertical-offset="8585">
           <folding>
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

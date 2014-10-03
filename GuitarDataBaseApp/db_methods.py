@@ -12,13 +12,28 @@ def generate_guitar_sql_query(filter_dict, order_by):
                          left join Produser prod on g.Guitar_produser_id = prod.id"""
     prices = []
     price_range = None
+    guitar_type = None
+    produser = None
     if filter_dict:
-        if filter_dict['price']:
-            prices = filter_dict['price'].split(',')
-            price_range = ' g.price > ' + prices[0] + ' and g.price < ' + prices[1]
-    if price_range:
+        if filter_dict['price'] != '-':
+            prices = filter_dict['price'].split('-')
+            price_range = ' g.price >= ' + prices[0] + ' and g.price <= ' + prices[1]
+        if filter_dict['type'] != '-':
+            guitar_type = ' g_t.name="' + filter_dict['type'] + '"'
+        if filter_dict['produser'] != '-':
+            produser = ' prod.name="' + filter_dict['produser'] + '"'
+    if price_range or guitar_type or produser:
         sql += ' where'
+    if price_range:
         sql += price_range
+        if guitar_type:
+            sql += ' and '
+    if guitar_type:
+        sql += guitar_type
+        if produser:
+            sql += ' and '
+    if produser:
+        sql += produser
     if order_by:
         sql += " "
         sql += order_by

@@ -16,5 +16,6 @@ urlpatterns = (
     url(r'^Edit/confirm/', views.edit_confirm_view, name='edit_confirm'),
     url(r'^Add_confirm/', views.add_confirm_view, name='add_confirm'),
     url(r'^load_csv/', views.load_csv_view, name='load_csv'),
-    url(r'^Guitar_filtered/', views.filter_view, name='filter')
+    url(r'^Guitar_filter/', views.filter_view, name='filter'),
+    url(r'^Guitar_filter_check/', views.filter_check, name='filter_check'),
 )
