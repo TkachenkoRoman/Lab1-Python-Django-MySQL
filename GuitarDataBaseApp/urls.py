@@ -18,4 +18,5 @@ urlpatterns = (
     url(r'^load_csv/', views.load_csv_view, name='load_csv'),
     url(r'^Guitar_filter/', views.filter_view, name='filter'),
     url(r'^Guitar_filter_check/', views.filter_check, name='filter_check'),
+    url(r'^Search/', views.search_view, name='search'),
 )

@@ -1,6 +1,6 @@
 import __init__
 
-def generate_guitar_sql_query(filter_dict, order_by):
+def generate_guitar_sql_query(filter_dict, search_keys, order_by):
     sql = """select g.id, g.name, g.string_amount, g.price,
                          g.neck_material, g.Fretboard_material, g.Pick_guard,
                          g_t.name, b.material, br.name, p.set_type, prod.name
@@ -11,6 +11,8 @@ def generate_guitar_sql_query(filter_dict, order_by):
                          left join Pickups p on g.Pickups_id = p.id
                          left join Produser prod on g.Guitar_produser_id = prod.id"""
     prices = []
+    search_words_list = []
+    search_fulltext_query = None
     price_range = None
     guitar_type = None
     produser = None
@@ -34,14 +36,28 @@ def generate_guitar_sql_query(filter_dict, order_by):
             sql += ' and '
     if produser:
         sql += produser
+
+    if search_keys:
+        search_words_list = search_keys.split(' ')
+        against = "AGAINST ('" + search_keys + "' IN BOOLEAN MODE) "
+        search_fulltext_query = """ WHERE MATCH(g.name, g.neck_material, g.Fretboard_material)""" + against
+        search_fulltext_query += "OR MATCH(g_t.name)" + against
+        search_fulltext_query += "OR MATCH(b.material, b.color, b.type, b.form)" +against
+        search_fulltext_query += "OR MATCH(prod.name, prod.info)" + against
+        search_fulltext_query += "OR MATCH(br.name, br.material, br.color)" + against
+        search_fulltext_query += "OR MATCH(p.type, p.set_type)" + against
+        #for word in search_words_list:
+        #    search_fulltext_query += "+" + word + " "
+        sql += search_fulltext_query
+
     if order_by:
         sql += " "
         sql += order_by
     return  sql
 
-def generate_data(table_name, columns, filter_dict=None):
+def generate_data(table_name, columns, search_keys, filter_dict=None):
     data = []
-    guitar_table_sql = generate_guitar_sql_query(filter_dict, "order by g.id asc")
+    guitar_table_sql = generate_guitar_sql_query(filter_dict, search_keys, "order by g.id asc")
     if table_name == "Guitar":
         __init__.cursor.execute(guitar_table_sql)
     else:

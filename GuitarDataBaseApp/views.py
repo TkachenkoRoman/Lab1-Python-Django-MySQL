@@ -7,31 +7,31 @@ from django.views.decorators.http import require_http_methods
 from django.core.context_processors import csrf
 
 def guitar_types_view(request):
-    table = Guitar_types(generate_data("Guitar_types", ("id", "name")))
+    table = Guitar_types(generate_data("Guitar_types", ("id", "name"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def pickups_view(request):
-    table = Pickups(generate_data("Pickups", ("id", "produser_id", "type", "set_type")))
+    table = Pickups(generate_data("Pickups", ("id", "produser_id", "type", "set_type"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def produsers_view(request):
-    table = Produser(generate_data("Produser", ("id", "name", "rating", "guitar", "bridge", "pickups", "info")))
+    table = Produser(generate_data("Produser", ("id", "name", "rating", "guitar", "bridge", "pickups", "info"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def bridge_view(request):
-    table = Bridge(generate_data("Bridge", ("id", "name", "material", "color", "produser_id")))
+    table = Bridge(generate_data("Bridge", ("id", "name", "material", "color", "produser_id"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def body_view(request):
-    table = Body(generate_data("Body", ("id", "material", "color", "type", "form")))
+    table = Body(generate_data("Body", ("id", "material", "color", "type", "form"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def guitar_view(request):
-    table = Guitar(generate_data("Guitar", ("id", "name", "string_amount", "price", "neck_material", "Fretboard_material", "Pick_guard", "Type_id", "Body_id", "Bridge_id", "Pickups_id", "Guitar_produser_id")))
+    table = Guitar(generate_data("Guitar", ("id", "name", "string_amount", "price", "neck_material", "Fretboard_material", "Pick_guard", "Type_id", "Body_id", "Bridge_id", "Pickups_id", "Guitar_produser_id"), None))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': get_guitar_types(), 'produsers': get_produsers()})
 
 def index(request):
-    table = Pickups(generate_data("Pickups", ("id", "produser_id", "type", "set_type")))
+    table = Pickups(generate_data("Pickups", ("id", "produser_id", "type", "set_type"), None))
     return render(request, 'templates/base.html',{'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
 
 def edit_view(request, edit_id):
@@ -140,5 +140,15 @@ def filter_view(request):
 
     table = Guitar(generate_data("Guitar", ("id", "name", "string_amount", "price", "neck_material", "Fretboard_material",\
                                             "Pick_guard", "Type_id", "Body_id", "Bridge_id", "Pickups_id",\
-                                            "Guitar_produser_id"), filter_dict))
+                                            "Guitar_produser_id"), None, filter_dict))
     return render(request, 'templates/base.html', {'mytable': table, 'filter':filter_all, 'guitar_types': get_guitar_types(), 'produsers': get_produsers()})
+
+
+def search_view(request):
+    c = {}
+    c.update(csrf(request))
+    search_keys = request.GET.get('search', False)
+    table = Guitar(generate_data("Guitar", ("id", "name", "string_amount", "price", "neck_material", "Fretboard_material",\
+                                            "Pick_guard", "Type_id", "Body_id", "Bridge_id", "Pickups_id",\
+                                            "Guitar_produser_id"), search_keys))
+    return render(request, 'templates/base.html', {'mytable': table, 'filter':None, 'guitar_types': None, 'produsers': None})
